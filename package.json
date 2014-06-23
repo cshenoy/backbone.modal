@@ -1,0 +1,39 @@
+{
+  "name": "backbone.modal",
+  "version": "1.0.1",
+  "description": "A plugin for Backbone.js that simplifies creating modals for your application.",
+  "dependencies": {
+    "backbone": ">=1.1.0"
+  },
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-coffee": "~0.6.4",
+    "grunt-regarde": "0.1.x",
+    "grunt-contrib-livereload": "0.1.x",
+    "grunt-contrib-jasmine": "~0.4.1",
+    "grunt-contrib-connect": "~0.2.0",
+    "grunt-open": "~0.2.0",
+    "grunt-contrib-uglify": "~0.2.0",
+    "grunt-contrib-sass": "~0.3.0",
+    "grunt-concurrent": "~0.2.0"
+  },
+  "main": "backbone.modal.js",
+  "author": {
+    "name": "Awkward"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cshenoy/backbone.modal.git"
+  },
+  "readme": "## Backbone.Modal\n\nA plugin for Backbone.js that simplifies creating modals for your application.\n\nBackbone.Modal.js removes boilerplate code and adds default behaviors and interactions. You can create a simple dialog modal or complex wizards with stacked modals on top of each other in a few lines of code.\n\nFor a complete overview of the documentation visit: [http://awkward.github.io/backbone.modal/](http://awkward.github.io/backbone.modal/)\n\n#### Bundled version\nIf you're using Backbone and Marionette.\n* [backbone.modal-bundled-min.js](https://raw.github.com/awkward/backbone.modal/master/backbone.modal-bundled-min.js)\n\n#### Backbone.Modals.js and Backbone.Marionette.Modals.js separate\nIf you just want to use the Backbone version without Marionette.\n* [backbone.modal-min.js](https://raw.github.com/awkward/backbone.modal/master/backbone.modal-min.js)\n* [backbone.marionette.modals-min.js](https://raw.github.com/awkward/backbone.modal/master/backbone.marionette.modals-min.js)\n\n#### CSS files\nThere's default style, and you can use our theme to make things look pretty.\n* [backbone.modal.css](https://raw.github.com/awkward/backbone.modal/master/backbone.modal.css)\n* [backbone.modal.theme.css](https://raw.github.com/awkward/backbone.modal/master/backbone.modal.theme.css)\n\n### How to contribute\n\nTo get started `grunt install` to install all dependencies. If you have any requests, please create an issue. If you're working on something yourself, make a pull request and we'll make sure to check it out to get in into the next release.\n\n### Tests\n\nWhen you run the project by doing `grunt watch`. This will watch the tests, src and example files. It will open up a browser with the tests on `http://localhost:8000`. When you head over `http://localhost:5000`, it will show the example that's defined in the `Gruntfile.coffee`.\n\n### Legal stuff (MIT License)\n\nCopyright (c) 2013 Awkward.\n\nDistributed under MIT license.\n",
+  "readmeFilename": "README.md",
+  "_id": "backbone.modal@1.0.1",
+  "dist": {
+    "shasum": "6cbded93909845f6640ca0069a5f44a0360f1a2a"
+  },
+  "_fromGithub": true,
+  "bugs": {
+    "url": "https://github.com/awkward/backbone.modal/issues"
+  },
+  "homepage": "https://github.com/awkward/backbone.modal"
+}
