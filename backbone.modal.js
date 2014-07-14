@@ -190,7 +190,7 @@
         return;
       }
       if (_.isFunction(viewType)) {
-        view = new viewType(this.args[0]);
+        view = new viewType(this.args[0], this);
         if (view instanceof Backbone.View) {
           return {
             el: view.render().$el,
